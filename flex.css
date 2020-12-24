@@ -1,0 +1,377 @@
+*{
+	/* box-sizing: border-box; */
+	margin:0;
+	padding: 0;
+	/* background-color: #047aed; */
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	line-height:1.6;	
+}
+.attune-insurance{
+	margin:0 50px;
+	padding-top:25px;
+	height:38rem;
+	background-color: yellow;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+	color: #333;
+} 
+
+h1{
+	margin:10px 0;
+}
+
+
+.navbar{
+	color:rgb(90, 81, 81);
+	height: 70px;
+}
+
+.navbar ul{
+	display:flex;
+}
+
+.navbar a{
+	color:rgb(70, 20, 20);
+	padding:10px;
+	margin:0 5px;
+}
+
+.navbar a:hover{
+	border-bottom: 2px solid black;
+}
+
+.navbar .flex{
+   justify-content: space-between;
+} 
+
+.navbar button{
+	margin: 0 5px;
+   height:30px;
+   width:90px;
+   background-color: aqua;
+   border-radius:5px;
+   color:white;
+}
+
+.container{
+   max-width: 900px; 
+   padding:0 40px;  
+}
+
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+}
+
+.insurance{ 
+   margin: 50px 0;
+	line-height: 1;
+	display: flex;
+   align-items: center;
+}
+
+.reflex h1{
+   font-size:3.5rem;
+   justify-content: flex-start;
+   font-family: Times New Roman;
+}
+
+section .showcase-text{
+   font-family: serif;
+   margin:15px 0;
+   font-weight: bold;
+}
+
+button{
+   margin: 20px 0;
+   height:50px;
+   width:100px;
+   background-color: aqua;
+   border-radius:5px;
+   color:white;
+}
+
+button + button{
+   color:black;
+   background-color: #fff;
+
+}
+
+.back{
+   margin:40px 0 ;
+}
+
+.AG{
+   margin:10px 0 0 0;
+   border: 2px solid black;
+   width:30px;
+   height:31px;
+
+}
+
+.card .business{
+   border:1px solid black;
+   width:300px;
+   margin-left: -20px;
+}
+
+.different{
+   margin: 0 50px;
+   background-color: #3f32d3;
+   padding-top: 50px;
+   height: 30rem;
+   color: white;
+   text-align: center;
+}
+
+.contain{
+   margin:50px 0;
+}
+
+.contain h1{
+   border:1px solid black;
+   border-radius:4px;
+   padding:5px 9px 5px 9px;
+   font-transform:uppercase;
+   display: inline;
+   font-size:14px;
+}
+
+.contain h2{
+   padding:4% 0 4% 0;
+}
+
+.contain div{
+   padding:1% 0;
+   line-height:2;
+   font-size:20px;
+   font-weight:15;
+}
+
+.cont{
+   font-size:14px;
+   text-align: center;
+   margin:0 50px;
+   height:38rem;
+} 
+
+.containment{
+   display: flex;
+   /* flex:1; */
+   flex-direction: row;
+   flex-wrap:wrap;
+}
+
+ .minutes{
+   display:flex;
+   justify-content: space-between;
+   padding-right:10px;
+   font-size:12px;
+   flex:1;
+   flex-direction:column;
+   box-sizing:border-box;
+   text-align:right;
+}
+
+.minutes span{
+   line-height:1.5rem;
+}
+
+.livepapers{  
+   display:flex;
+   justify-content: space-between;
+   padding-left:20px;
+   font-size:12px;
+   flex:1;
+   flex-direction:column;
+   box-sizing:border-box;
+}
+
+.livepapers span{
+   margin-top: 10px;
+   line-height:1.5rem;
+}
+
+.pad{
+   display: flex;
+}
+
+.blue{
+   border-radius:5px;
+   background-color:blue;
+   margin:2% 1%;
+   padding:2%;
+   width:50%;
+   text-align: center;
+   padding-top:7%;
+}
+
+.blue span{
+   line-height: 3;
+   margin-bottom:2px;
+}
+
+.blue sub{
+   line-height: 1;
+   margin-bottom: 5px;
+}
+
+.grey{
+   border-radius:5px;
+   background-color:grey;
+   margin:2% 1%;
+   width:50%;
+   padding-top:7%;
+}
+
+.pink{
+   border-radius:5px;
+   background-color:pink;
+   margin:2% 1%;
+   width:50%;
+   padding-top:7%;
+}
+
+hr{
+   margin-top: 10%;
+   margin-bottom:10%;
+}
+
+.cont h4 {
+   margin-top:-20%;
+   padding-left:19%;
+   font-size:24px;
+   text-align:left;
+}
+
+.cont .pic{
+   border:1px solid black;
+   width:15%;
+   height:30%;
+   background-color:green;
+}
+
+.hFour{
+   text-align: left;
+   line-height: 30px;
+   margin:10px 0;
+   padding-left:19%;
+}
+
+.one{
+   display:flex;
+   margin-top: 5%;
+   justify-content: row;
+}
+
+.subsection-one{
+   background-color:green;
+   width:50%;
+   height:20rem;
+}
+
+.subsection-two{
+   background-color:grey;
+   width:50%;
+   height:20rem;
+}
+
+.subsection-one div{
+   margin:10% 0 9% 9%;
+   text-align: left;
+}
+
+blockquote{
+   border:1px solid black;
+   border-radius: 8px;
+   width:18%;
+   text-align: center;
+   color:purple;
+   background-color:white;
+}
+
+.subsection-one h5{
+   font-size:18px;
+   padding:5% 0 5% 0;
+}
+
+.subsection-one h6{
+   border-radius:8px;
+   background-color:purple;
+   width:55%;
+   text-align: center;
+   margin: 15px 0 5px 0;
+   padding:18px 0 18px 0;
+   font-size:1.2rem;
+}
+
+footer{
+   background-color:pink;  
+   height:40rem;
+}
+
+.want-to-know-more {
+   display:flex;
+   justify-content: space-between;
+   padding:9% 5% 5% 5%;
+   text-align: left;
+}
+ .want-to-know-more div header{
+   justify-content: column;
+   flex:1;
+   padding:5% 0 5% 0;
+   color:yellow;
+}
+
+.want-to-know-more button{
+   width:25%;
+   padding:2% 0 2% 0;
+}
+
+.company-contact{
+   display:flex;
+   justify-content: space-between;
+}
+
+.company-contact section {
+   justify-content: column;
+   padding:0 5% 0 5%;
+   text-align:left;
+}
+
+.company-contact .card{ 
+   border-radius:2%;
+   background-color: yellow;
+   width:15%;
+   padding-left:9%;
+   margin-right:4%;
+   font-size:11px;
+}
+
+@media only screen and (max-width: 2550px){
+   *{
+      margin:0;
+      padding:0;
+  }
+  
+  .rectified{
+     margin:0 50px;
+     padding-top:25px;
+     background-color: yellow;
+  }
+   footer{
+      padding-top: 8rem;
+      background-color:greenyellow;
+   }
+}

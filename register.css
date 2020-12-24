@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.rectified{
+	margin:0 50px;
+	padding-top:25px;
+	background-color: yellow;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+	color: #333;
+} 
+
+h1{
+	margin:10px 0;
+}
+
+.navbar{
+	color:rgb(90, 81, 81);
+	height: 70px;
+}
+
+.navbar ul{
+	display:flex;
+}
+
+.navbar a{
+	color:rgb(70, 20, 20);
+	padding:10px;
+	margin:0 5px;
+}
+
+.navbar a:hover{
+	border-bottom: 2px solid black;
+}
+
+.navbar .flex{
+   justify-content: space-between;
+} 
+
+.navbar button{
+	margin: 0 5px;
+   height:30px;
+   width:90px;
+   background-color: aqua;
+   border-radius:5px;
+   color:white;
+}
+
+.container{
+   max-width: 900px; 
+   padding:0 40px;  
+}
+
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+}
+
+/* .connect{
+   margin:0;
+   padding: 5% 5% 5% 5%;
+} */
+
+.connect-question{
+   margin:0;
+   padding:5% 5% 5% 5%;
+   display:flex;
+   justify-content:space-between;
+}
+
+.connect-with-us{
+   max-width:58%;
+   width:100%;
+
+}
+
+.connect-with-us header{
+   font-size:2.5em;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: bold;
+   padding:0;
+   margin-bottom:2%;
+}
+.connect-with-us p{
+   line-height:1.5;
+   font-size:1.1em;
+   margin-bottom:4%;
+   padding:0;
+}
+input{
+   border:none;
+   width:20em;
+   padding:0 0 0 5%;
+   height:2.5em;
+   margin:.1% 0 5% 0;
+   font-size:1.2em;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.questions{
+   max-width:58%;
+   width:100%;
+}
+
+.questions header{
+   /* border:1px solid black; */
+   border-radius:3%;
+   /* height:5em; */
+   padding:5% 0 5% 5%;
+   margin-bottom:10%;
+   background-color:lightgreen;
+}
+
+.questions h1{
+   font-size:1.4em;
+   font-weight:bold;
+
+}
+.questions ul{
+   list-style:none;
+   padding-left:5%;
+}
+
+footer{
+   background-color:darkslategrey;
+}
+
+.questions ul{
+   line-height:1.9;
+   list-style: none;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.company-contact{
+   padding:5% 5% 15% 5%;
+   display:flex;
+   justify-content:space-between;
+}
+
+.company-contact p{
+   font-size:19px;
+   font-weight:bold;
+   font-family:Arial, Helvetica, sans-serif;
+   padding-bottom:2%;
+}
+
+.company-contact ul{
+   line-height: 1.9;
+}
+
+.accompany{
+   max-width:29%;
+   width:100%;
+}
+
+.contact{
+   max-width:29%;
+   width:100%;
+}
+
+.card{
+   border: 1px solid black;
+   border-radius:5px;
+   max-width:29%;
+   width:100%;
+   margin-bottom:7em; 
+}
+
+@media screen and (max-width:450px){
+   .rectified{
+      display: flex;
+      justify-content: column;
+      margin:0 50px;
+      padding-top:25px;
+      background-color: yellow;
+   }
+
+   footer{
+      display: flex;
+      justify-content: column;
+      padding-top: 8rem;
+      background-color:greenyellow;
+   }
+}

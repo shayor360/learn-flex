@@ -1,0 +1,232 @@
+*{
+	/* box-sizing: border-box; */
+	margin:0;
+	padding: 0;
+	/* background-color: #047aed; */
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	line-height:1.6;	
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+ } 
+
+h1{
+	margin:10px 0;
+}
+
+.navbar{
+   color:rgb(90, 81, 81);
+   padding:0 40px;  
+   height: 30%;
+   background-color:gray;
+}
+
+.navbar ul{
+	display:flex;
+}
+
+.navbar a{
+	color:rgb(70, 20, 20);
+	padding:10px;
+	margin:0 5px;
+}
+
+.navbar a:hover{
+	border-bottom: 2px solid black;
+}
+
+.navbar .flex{
+   justify-content: space-between;
+} 
+
+.navbar button{
+	margin: 0 5px;
+   height:30px;
+   width:90px;
+   background-color: aqua;
+   border-radius:5px;
+   color:white;
+}
+
+.container{
+   max-width: 900px; 
+   /* padding:0 40px;   */
+}
+
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100%;
+}
+
+.insurance{ 
+   margin: 50px 0;
+	line-height: 1;
+	display: flex;
+   align-items: center;
+}
+
+.making-insurance-better{
+   display:flex;
+   padding-top:5%;
+   margin-bottom:10%;
+    
+}
+
+section header{
+   font-family: 'Times New Roman', Times, serif;
+   font-size:2.0em;
+   font-weight:5px;
+   line-height:1.0;
+}
+
+section p{
+   font-family: 'Times New Roman', Times, serif;
+   font-size:1.1em;
+   font-weight:5px;
+   line-height:1.5;
+   padding:5% 0 5% 0;
+}
+
+.brader{
+   border:1px solid black;
+}
+
+.headers-value{
+   margin:0;
+   padding: 5em 2.8em 5em 2.8em;
+}
+
+.headers-value h1{
+   text-align: center;
+}
+
+.headers-value section{
+   margin:0;
+   padding:2em 5em 2em 5em;
+   display:flex;
+   justify-content: space-between;
+   
+}
+
+ul li{
+   font-size:.8em;
+   font-weight:5%;
+   color:#667d87;
+   list-style: none;
+   padding:5rem 0 5rem 0;
+}
+
+li header{
+   padding-bottom:.8em;
+   color:black;
+}
+
+.customers-benefits{
+   margin:0;
+   padding:0;
+   justify-content: center;
+}
+
+.benefits p{
+   padding:1.2rem 0 .2rem 0;
+}
+
+.at-attune{
+   text-align: center; 
+   font-size:1.5rem;
+   line-height: .5;
+   padding:0 2.5em 0 2.5em;
+} 
+
+.positions{
+   padding:5% 0 5% 0;
+   text-align:center;
+}
+.wrapping ul{
+   display:flex;
+   justify-content: space-between;
+   margin:-5% 0 -5% 0; 
+   padding:0 3% 0 3%;
+}
+
+.rolling{
+   padding:0 2.5em 0 2.5em;
+}
+
+.awards{
+   padding:2% 3% 2% 3%;
+   text-align: center;
+}
+
+/* .rolling ul:nth-child(2){
+   padding-top:15%;
+   background-color:green;
+} */
+
+/* .rolling ul{
+   margin:-2% 2% -2% -2%;
+   background-color:green;
+} */
+
+footer{
+   background-color:pink;  
+   height:40rem;
+}
+
+.want-to-know-more {
+   display:flex;
+   justify-content: space-between;
+   padding:3% 5% 2% 5%;
+   text-align: left;
+}
+ .want-to-know-more div header{
+   justify-content: column;
+   flex:1;
+   padding:3% 0 2% 0;
+   color:yellow;
+}
+
+button{
+   width:25%;
+   margin:5% 0 0 2%;
+   padding:.5% 0 2% 0;
+   height:15px;
+   text-align: center;
+}
+
+.company-contact{
+   display:flex;
+   justify-content: space-between;
+}
+
+.company-contact section {
+   justify-content: column;
+   margin:-5% 0 -5% 0;
+   padding:0 5% 0 5%;
+   text-align:left;
+}
+
+.company-contact section li{
+   margin:8% 0;
+   padding:10%;
+}
+.company-contact .card{ 
+   border-radius:2%;
+   background-color: yellow;
+   width:15%;
+   padding-left:9%;
+   margin-right:4%;
+   height:5%;
+   font-size:11px;
+}
